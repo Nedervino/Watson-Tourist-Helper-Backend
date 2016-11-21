@@ -1,0 +1,13 @@
+---
+declared-services:
+  text-to-speech-service:
+    label: text_to_speech
+    plan: standard
+applications:
+- services:
+  - text-to-speech-service
+  name: watson-tourist-guide
+  buildpack: https://github.com/cloudfoundry/nodejs-buildpack
+  command: node .
+  path: .
+  memory: 256M
