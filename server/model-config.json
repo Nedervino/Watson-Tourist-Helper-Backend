@@ -43,5 +43,11 @@
     "public": true,
     "$promise": {},
     "$resolved": true
+  },
+  "Dataset": {
+    "dataSource": "amsterdamApi",
+    "public": true,
+    "$promise": {},
+    "$resolved": true
   }
 }
