@@ -2,5 +2,50 @@
   "db": {
     "name": "db",
     "connector": "memory"
+  },
+  "amsterdamApi": {
+    "name": "amsterdamApi",
+    "connector": "rest",
+    "operations": [
+      {
+        "template": {
+          "method": "GET",
+          "url": "http://open.datapunt.amsterdam.nl/Attracties.json",
+          "headers": {
+            "accepts": "application/json",
+            "content-type": "application/json"
+          }
+        },
+        "functions": {
+          "getAttractions": []
+        }
+      },
+      {
+        "template": {
+          "method": "GET",
+          "url": "http://open.datapunt.amsterdam.nl/Evenementen.json",
+          "headers": {
+            "accepts": "application/json",
+            "content-type": "application/json"
+          }
+        },
+        "functions": {
+          "getEvents": []
+        }
+      },
+      {
+        "template": {
+          "method": "GET",
+          "url": "http://open.datapunt.amsterdam.nl/EtenDrinken.json",
+          "headers": {
+            "accepts": "application/json",
+            "content-type": "application/json"
+          }
+        },
+        "functions": {
+          "getFoodAndDrinks": []
+        }
+      }
+    ]
   }
 }
