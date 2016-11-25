@@ -17,26 +17,35 @@
       "type": "string",
       "required": true
     },
-    "address": {
-      "type": "string"
-    },
     "url": {
       "type": "string"
     },
     "thumbnail": {
       "type": "string"
     },
+    "startingDate": {
+      "type": "date"
+    },
+    "address": {
+      "type": "string"
+    },
     "geolocation": {
       "type": "geopoint"
     },
+    "city": {
+      "type": "string"
+    },
+    "zipcode": {
+      "type": "string"
+    },
+    "propertyName15": {
+      "type": "string"
+    },
     "latitude": {
-      "type": "number"
+      "type": "string"
     },
     "longitude": {
-      "type": "number"
-    },
-    "startingDate": {
-      "type": "date"
+      "type": "string"
     }
   },
   "validations": [],
