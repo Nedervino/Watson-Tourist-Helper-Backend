@@ -10,10 +10,6 @@
     "shortDescription": {
       "type": "string"
     },
-    "id": {
-      "type": "number",
-      "id": true
-    },
     "longDescription": {
       "type": "string"
     },

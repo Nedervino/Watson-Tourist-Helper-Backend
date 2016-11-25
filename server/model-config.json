@@ -39,7 +39,7 @@
     "$resolved": true
   },
   "Attraction": {
-    "dataSource": "db",
+    "dataSource": "mySQLDB",
     "public": true,
     "$promise": {},
     "$resolved": true

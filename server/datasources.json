@@ -47,5 +47,14 @@
         }
       }
     ]
+  },
+  "mySQLDB": {
+    "host": "127.0.0.1",
+    "port": 3306,
+    "database": "Watson",
+    "password": "root",
+    "name": "mySQLDB",
+    "user": "root",
+    "connector": "mysql"
   }
 }
