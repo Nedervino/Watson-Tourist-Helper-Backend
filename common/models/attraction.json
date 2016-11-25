@@ -8,10 +8,12 @@
   },
   "properties": {
     "shortDescription": {
-      "type": "string"
+      "type": "string",
+      "dataType": "longtext"
     },
     "longDescription": {
-      "type": "string"
+      "type": "string",
+      "dataType" : "longtext"
     },
     "name": {
       "type": "string",

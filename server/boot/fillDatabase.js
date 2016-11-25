@@ -2,7 +2,6 @@
 //app.dataSources.Dataset.getAttractions(processResponse);
 var request = require('request');
 var dataObject;
-var defaultValue = "empty value";
 
 function createFromIntrospection(object) {
   var firstItem = object[0];
@@ -32,27 +31,29 @@ module.exports = function(app) {
       if (!error && response.statusCode == 200) {
         //console.log(body)
         dataObject = JSON.parse(body);
+        var itemArray = [];
         //console.log(typeof dataObject);
         //console.log(dataObject[0].details.en.title)
         for (var key in dataObject) {
-         item = dataObject[key];
-          app.models.Attraction.create([
-            {
-              name: (typeof item.details.en.title !== 'undefined') ? item.details.en.title : null,
-              //shortDescription: (typeof item.details.en.shortdescription !== 'undefined') ? item.details.en.shortdescription : null,
-              //longDescription: (typeof item.details.en.longdescription !== 'undefined') ? item.details.en.longdescription : null,
-              city: (typeof item.location.city !== 'undefined') ? item.location.city : null,
-              // address: item.location.address || defaultValue,
-              // zipcode: item.location.zipcode || defaultValue,
-              // latitude: item.location.latitude || defaultValue,
-              // longitude: item.location.longitude || defaultValue,
-            },
-          ], function(err, attractions) {
-            if (err) throw err;
+          item = dataObject[key];
+          var modelItem = {
+            name: item.details.en.title,
+            shortDescription: item.details.en.shortdescription,
+            longDescription: item.details.en.longdescription,
+            city: item.location.city,
+            address: item.location.address,
+            zipcode: item.location.zipcode,
+            latitude: item.location.latitude,
+            longitude: item.location.longitude,
+          }
+          itemArray.push(modelItem);
 
-            console.log('Models created: \n', attractions);
-          });
         }
+        app.models.Attraction.create(itemArray, function(err, attractions) {
+          if (err) throw err;
+
+          console.log('Models created: \n', attractions);
+        });
         //var firstAttraction = dataObject[0];
         //console.log(firstAttraction.details.en.title);
       }
