@@ -2,7 +2,7 @@
 'use strict';
 
 var request = require('request');
-var dataObject;
+var GeoPoint = require('loopback').GeoPoint;
 
 //not usable for mySQL instance, optionally switch to mongoDB in production
 function createFromIntrospection(object) {
@@ -25,22 +25,22 @@ function createFromIntrospection(object) {
 }
 
 function constructModelItem(item) {
-
   var modelItem = {
     name: item.details.en.title,
     shortDescription: item.details.en.shortdescription,
     longDescription: item.details.en.longdescription,
     url: item.urls[0],
+    thumbnail: typeof item.media[0] != "undefined" ? item.media[0].url : null,
     startDate: item.dates.startdate,
     endDate: item.dates.enddate,
     singleDates: item.dates.singles,
     city: item.location.city,
-    address: item.location.address,
+    address: item.location.adress,
     zipcode: item.location.zipcode,
-    latitude: item.location.latitude,
-    longitude: item.location.longitude,
+    latitude: item.location.latitude.replace(",", "."),
+    longitude: item.location.longitude.replace(",", "."),
+    geolocation: new GeoPoint({lat: parseFloat(item.location.latitude.replace(",", ".")), lng: parseFloat(item.location.longitude.replace(",", "."))})
   }
-
   return modelItem;
 }
 
@@ -52,11 +52,8 @@ module.exports = function(app) {
     //load dataset into JSON object
     request('http://open.datapunt.amsterdam.nl/Attracties.json', function (error, response, body) {
       if (!error && response.statusCode == 200) {
-        //console.log(body)
-        dataObject = JSON.parse(body);
+        var dataObject = JSON.parse(body);
         var itemArray = [];
-        //console.log(typeof dataObject);
-        //console.log(dataObject[0].details.en.title)
         for (var key in dataObject) {
           var item = dataObject[key];
           var modelItem = constructModelItem(item);
@@ -70,6 +67,8 @@ module.exports = function(app) {
         });
         //var firstAttraction = dataObject[0];
         //console.log(firstAttraction.details.en.title);
+      } else {
+        console.log('An error occured during data synchronization: ' + error);
       }
     })
 

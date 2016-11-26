@@ -11,11 +11,9 @@ module.exports = function(app) {
    * for more info.
    */
 
-   cron.schedule('* * * * *', function(){          // '* * *' for running every days
-     console.log('running a task every minute');
-     console.log(__dirname);
-     dbInitialize;
-
+   cron.schedule('10,20,30,40,50 * * * * *', function(){          // '00 00 * * *' for every day at midnigt
+     console.log('Current time is ' + new Date() + '. Updating database');
+     dbInitialize(app);
    });
 
 };

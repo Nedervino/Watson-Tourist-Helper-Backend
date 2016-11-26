@@ -8,21 +8,16 @@
   },
   "properties": {
     "shortDescription": {
-      "type": "string"
-    },
-    "id": {
-      "type": "number",
-      "id": true
+      "type": "string",
+      "dataType": "longtext"
     },
     "longDescription": {
-      "type": "string"
+      "type": "string",
+      "dataType": "longtext"
     },
     "name": {
       "type": "string",
       "required": true
-    },
-    "address": {
-      "type": "string"
     },
     "url": {
       "type": "string"
@@ -30,17 +25,32 @@
     "thumbnail": {
       "type": "string"
     },
+    "startDate": {
+      "type": "string"
+    },
+    "endDate": {
+      "type": "string"
+    },
+    "singleDates": {
+      "type": "string"
+    },
+    "address": {
+      "type": "string"
+    },
     "geolocation": {
       "type": "geopoint"
     },
+    "city": {
+      "type": "string"
+    },
+    "zipcode": {
+      "type": "string"
+    },
     "latitude": {
-      "type": "number"
+      "type": "string"
     },
     "longitude": {
-      "type": "number"
-    },
-    "startingDate": {
-      "type": "date"
+      "type": "string"
     }
   },
   "validations": [],

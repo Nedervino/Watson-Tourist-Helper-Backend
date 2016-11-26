@@ -1,7 +1,7 @@
 {
   "name": "Attraction",
+  "plural": "Attractions",
   "base": "PersistedModel",
-  "strict": false,
   "idInjection": true,
   "options": {
     "validateUpsert": true
