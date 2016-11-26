@@ -25,8 +25,14 @@
     "thumbnail": {
       "type": "string"
     },
-    "startingDate": {
-      "type": "date"
+    "startDate": {
+      "type": "string"
+    },
+    "endDate": {
+      "type": "string"
+    },
+    "singleDates": {
+      "type": "string"
     },
     "address": {
       "type": "string"
@@ -38,9 +44,6 @@
       "type": "string"
     },
     "zipcode": {
-      "type": "string"
-    },
-    "propertyName15": {
       "type": "string"
     },
     "latitude": {

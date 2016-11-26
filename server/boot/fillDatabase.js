@@ -1,10 +1,13 @@
-//boot script for loading Attractions, Events, and other places into the database from open.data.amsterdam
-//app.dataSources.Dataset.getAttractions(processResponse);
+//boot script for loading all relevant data into the mySQL database from open.data.amsterdam
+'use strict';
+
 var request = require('request');
 var dataObject;
 
+//not usable for mySQL instance, optionally switch to mongoDB in production
 function createFromIntrospection(object) {
   var firstItem = object[0];
+
   // Create a model from the user instance
   var Attraction2 = db.buildModelFromInstance('Attraction2', firstItem, {idInjection: true});
 
@@ -21,6 +24,26 @@ function createFromIntrospection(object) {
   });
 }
 
+function constructModelItem(item) {
+
+  var modelItem = {
+    name: item.details.en.title,
+    shortDescription: item.details.en.shortdescription,
+    longDescription: item.details.en.longdescription,
+    url: item.urls[0],
+    startDate: item.dates.startdate,
+    endDate: item.dates.enddate,
+    singleDates: item.dates.singles,
+    city: item.location.city,
+    address: item.location.address,
+    zipcode: item.location.zipcode,
+    latitude: item.location.latitude,
+    longitude: item.location.longitude,
+  }
+
+  return modelItem;
+}
+
 module.exports = function(app) {
   var db = app.dataSources.mySQLDB;
   app.dataSources.mySQLDB.automigrate('Attraction', function(err) {
@@ -35,24 +58,15 @@ module.exports = function(app) {
         //console.log(typeof dataObject);
         //console.log(dataObject[0].details.en.title)
         for (var key in dataObject) {
-          item = dataObject[key];
-          var modelItem = {
-            name: item.details.en.title,
-            shortDescription: item.details.en.shortdescription,
-            longDescription: item.details.en.longdescription,
-            city: item.location.city,
-            address: item.location.address,
-            zipcode: item.location.zipcode,
-            latitude: item.location.latitude,
-            longitude: item.location.longitude,
-          }
+          var item = dataObject[key];
+          var modelItem = constructModelItem(item);
           itemArray.push(modelItem);
 
         }
         app.models.Attraction.create(itemArray, function(err, attractions) {
           if (err) throw err;
 
-          console.log('Models created: \n', attractions);
+          console.log('Models created: \n', attractions.length);
         });
         //var firstAttraction = dataObject[0];
         //console.log(firstAttraction.details.en.title);

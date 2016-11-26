@@ -1,5 +1,10 @@
 'use strict';
 
+/*
+TODO:
+Define boot script order
+*/
+
 var loopback = require('loopback');
 var boot = require('loopback-boot');
 
@@ -20,17 +25,17 @@ app.start = function() {
 
 // Bootstrap the application, configure models, datasources and middleware.
 // Sub-apps like REST API are mounted via boot scripts.
+
+// Define boot order
+// bootOptions = { "appRootDir": __dirname,
+//                 "bootScripts" : [ "/full/path/to/boot/script/first.js", "//full/path/to/boot/script/second.js", ... ]
+// };
+
 boot(app, __dirname, function(err) {
   if (err) throw err;
 
   // start the server if `$ node server.js`
   if (require.main === module)
     app.start();
-
-    // var vcap_services = JSON.parse(process.env.VCAP_SERVICES);
-    // var appEnv = cfenv.getAppEnv()
-
-
-
 
 });

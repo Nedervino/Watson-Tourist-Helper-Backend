@@ -17,6 +17,7 @@
     "loopback-connector-mysql": "^2.4.0",
     "loopback-connector-rest": "^2.1.0",
     "loopback-datasource-juggler": "^2.39.0",
+    "node-cron": "^1.1.2",
     "serve-favicon": "^2.0.1",
     "strong-error-handler": "^1.0.1"
   },
