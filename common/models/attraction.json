@@ -13,7 +13,7 @@
     },
     "longDescription": {
       "type": "string",
-      "dataType" : "longtext"
+      "dataType": "longtext"
     },
     "name": {
       "type": "string",

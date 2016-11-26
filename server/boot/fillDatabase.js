@@ -60,27 +60,6 @@ module.exports = function(app) {
     })
 
 
-    // app.models.Attraction.create([
-    //   {
-    //     name: 'Attraction 1',
-    //     shortDescription: 'Wonderful place'
-    //   },
-    //   {
-    //     name: 'Attraction 2',
-    //     shortDescription: 'Wonderful place'
-    //   },
-    //   {
-    //     name: 'Attraction 3',
-    //     shortDescription: 'Wonderful place'
-    //   },
-    // ], function(err, attractions) {
-    //   if (err) throw err;
-
-    //   console.log('Models created: \n', attractions);
-    // });
-
-
-
   });
 };
 

@@ -26,4 +26,11 @@ boot(app, __dirname, function(err) {
   // start the server if `$ node server.js`
   if (require.main === module)
     app.start();
+
+    // var vcap_services = JSON.parse(process.env.VCAP_SERVICES);
+    // var appEnv = cfenv.getAppEnv()
+
+
+
+
 });

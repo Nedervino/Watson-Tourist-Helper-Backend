@@ -3,8 +3,12 @@ declared-services:
   text-to-speech-service:
     label: text_to_speech
     plan: standard
+  mysql-database:
+    label: mysql
+    plan: '100'
 applications:
 - services:
+  - mysql-ly #Identifier for MySQL Bound Service instance
   - text-to-speech-service
   name: watson-tourist-guide
   buildpack: https://github.com/cloudfoundry/nodejs-buildpack
