@@ -1,6 +1,6 @@
 {
-  "name": "Event",
-  "plural": "Events",
+  "name": "MuseaAndGalleries",
+  "plural": "MuseaAndGalleries",
   "base": "PersistedModel",
   "idInjection": true,
   "options": {

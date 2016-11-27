@@ -1,6 +1,6 @@
 {
-  "name": "Event",
-  "plural": "Events",
+  "name": "Shop",
+  "plural": "Shops",
   "base": "PersistedModel",
   "idInjection": true,
   "options": {

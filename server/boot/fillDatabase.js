@@ -4,6 +4,58 @@
 var request = require('request');
 var GeoPoint = require('loopback').GeoPoint;
 
+module.exports = function(app) {
+  fillSpecificTable(app, 'Attraction', 'Attracties.json');
+  fillSpecificTable(app, 'Event', 'Evenementen.json');
+  fillSpecificTable(app, 'Activity', 'Activiteiten.json');
+  fillSpecificTable(app, 'FoodAndDrinks', 'EtenDrinken.json');
+  fillSpecificTable(app, 'MuseaAndGalleries', 'MuseaGalleries.json');
+  fillSpecificTable(app, 'Nightlife', 'UitInAmsterdam.json');
+  fillSpecificTable(app, 'Theater', 'Theater.json');
+  fillSpecificTable(app, 'Festival', 'Festivals.json');
+  fillSpecificTable(app, 'Exhibition', 'Tentoonstellingen.json');
+  fillSpecificTable(app, 'Shop', 'Shoppen.json');
+
+
+
+  // fillSpecificTable(app, 'Event', 'Evenementen.json');
+  // fillSpecificTable(app, 'Event', 'Evenementen.json');
+};
+
+
+function fillSpecificTable(app, model, resourceLink) {
+  app.dataSources.mySQLDB.automigrate(model, function(err) {
+    if (err) throw err;
+
+    //load dataset into JSON object
+    var apiUrl = 'http://open.datapunt.amsterdam.nl/' + resourceLink;
+    //console.log(apiUrl);
+    request(apiUrl, function (error, response, body) {
+      if (!error && response.statusCode == 200) {
+        var dataObject = JSON.parse(body);
+        var itemArray = [];
+        for (var key in dataObject) {
+          var item = dataObject[key];
+          var modelItem = constructModelItem(item);
+          itemArray.push(modelItem);
+
+        }
+        app.models[model].create(itemArray, function(err, modelInstances) {
+          if (err) throw err;
+
+          console.log('Created ' + modelInstances.length + ' instances in ' + model + ' table of database');
+        });
+        //var firstAttraction = dataObject[0];
+        //console.log(firstAttraction.details.en.title);
+      } else {
+        console.log('An error occured during data synchronization: ' + error);
+      }
+    })
+
+
+  });
+}
+
 //not usable for mySQL instance, optionally switch to mongoDB in production
 function createFromIntrospection(object) {
   var firstItem = object[0];
@@ -43,36 +95,4 @@ function constructModelItem(item) {
   }
   return modelItem;
 }
-
-module.exports = function(app) {
-  var db = app.dataSources.mySQLDB;
-  app.dataSources.mySQLDB.automigrate('Attraction', function(err) {
-    if (err) throw err;
-
-    //load dataset into JSON object
-    request('http://open.datapunt.amsterdam.nl/Attracties.json', function (error, response, body) {
-      if (!error && response.statusCode == 200) {
-        var dataObject = JSON.parse(body);
-        var itemArray = [];
-        for (var key in dataObject) {
-          var item = dataObject[key];
-          var modelItem = constructModelItem(item);
-          itemArray.push(modelItem);
-
-        }
-        app.models.Attraction.create(itemArray, function(err, attractions) {
-          if (err) throw err;
-
-          console.log('Models created: \n', attractions.length);
-        });
-        //var firstAttraction = dataObject[0];
-        //console.log(firstAttraction.details.en.title);
-      } else {
-        console.log('An error occured during data synchronization: ' + error);
-      }
-    })
-
-
-  });
-};
 

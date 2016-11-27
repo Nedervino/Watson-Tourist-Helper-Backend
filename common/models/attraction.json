@@ -32,7 +32,8 @@
       "type": "string"
     },
     "singleDates": {
-      "type": "string"
+      "type": "string",
+      "dataType": "longtext"
     },
     "address": {
       "type": "string"

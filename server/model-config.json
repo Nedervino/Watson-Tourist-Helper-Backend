@@ -33,7 +33,7 @@
     "public": false
   },
   "Event": {
-    "dataSource": "db",
+    "dataSource": "mySQLDB",
     "public": true,
     "$promise": {},
     "$resolved": true
@@ -49,5 +49,37 @@
     "public": true,
     "$promise": {},
     "$resolved": true
+  },
+  "Activity": {
+    "dataSource": "mySQLDB",
+    "public": true
+  },
+  "FoodAndDrinks": {
+    "dataSource": "mySQLDB",
+    "public": true
+  },
+  "MuseaAndGalleries": {
+    "dataSource": "mySQLDB",
+    "public": true
+  },
+  "Nightlife": {
+    "dataSource": "mySQLDB",
+    "public": true
+  },
+  "Festival": {
+    "dataSource": "mySQLDB",
+    "public": true
+  },
+  "Theater": {
+    "dataSource": "mySQLDB",
+    "public": true
+  },
+  "Exhibition": {
+    "dataSource": "mySQLDB",
+    "public": true
+  },
+  "Shop": {
+    "dataSource": "mySQLDB",
+    "public": true
   }
 }

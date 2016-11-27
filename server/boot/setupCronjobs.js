@@ -11,7 +11,7 @@ module.exports = function(app) {
    * for more info.
    */
 
-   cron.schedule('10,20,30,40,50 * * * * *', function(){          // '00 00 * * *' for every day at midnigt
+   cron.schedule('00 00 * * *', function(){          // '00 00 * * *' for every day at midnigt
      console.log('Current time is ' + new Date() + '. Updating database');
      dbInitialize(app);
    });
