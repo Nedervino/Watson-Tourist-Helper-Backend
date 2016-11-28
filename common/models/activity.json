@@ -47,6 +47,9 @@
     "zipcode": {
       "type": "string"
     },
+    "neighbourhood": {
+      "type": "string"
+    },
     "latitude": {
       "type": "string"
     },
