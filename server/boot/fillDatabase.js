@@ -97,46 +97,49 @@ function constructModelItem(item) {
   return modelItem;
 }
 
+//
+//http://spotzi.com/nl/kaarten/regio-indelingen/postcode/postcode-4-positie-nederland/
 function determineNeighbourhood(zipcode) {
   var zipcodeNumbers = parseInt(zipcode.substr(0,4));
   switch(zipcodeNumbers) {
-    case 1020:
     case 1021:
-      return "Noordelijke IJ-oever";
-    case 1030:
+    case 1022:
     case 1031:
     case 1032:
-      return "NDSM";
+      return "Noordelijke IJ-oever";  //
+    case 1033:
+      return "NDSM"; //
     case 1091:
-      return "Oosterpark";
+    case 1092:
+    case 1093:
+    case 1094:
+      return "Oosterpark";//
     case 1018:
-      return "De Plantage";
-    case 1050:
-    case 1051:
-    case 1052:
+      return "De Plantage";//
     case 1053:
     case 1054:
-    case 1056:
-    case 1057:
-    case 1058:
-    case 1059:
-      return "Oud-West";
+      return "Oud-West";//
     case 1072:
     case 1073:
     case 1074:
-      return "De Pijp";
-    case 1018:
-      return "Oostelijke Eilanden";
-    case 1072:
+      return "De Pijp"; //
+    case 1019:
+      return "Oostelijke Eilanden";//
+    case 1071:
+    case 1075:
     case 1076:
-      return "Oud-Zuid";
+    case 1077:
+      return "Oud-Zuid";//
+    case 1051:
     case 1052:
     case 1013:
     case 1014:
-    case 1051:
-      return "Westerpark";
+      return "Westerpark";//
     case 1055:
-      return "Bos en Lommer and De Baarsjes";
+    case 1056:
+    case 1057:
+    case 1058:
+      return "Bos en Lommer and De Baarsjes";//
     case 1100:
     case 1101:
     case 1102:
@@ -145,13 +148,13 @@ function determineNeighbourhood(zipcode) {
     case 1105:
     case 1106:
     case 1107:
-      return "Zuidoost";
+    case 1108:
+      return "Zuidoost";  //complete
     case 1011:
     case 1012:
     case 1015:
     case 1016:
     case 1017:
-    case 1018:
       return "Amsterdam-Centrum";
     default:
       return "Unknown";

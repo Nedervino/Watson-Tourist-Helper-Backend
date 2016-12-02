@@ -20,5 +20,6 @@ npm-debug.log
 /data
 
 #production variables
-**/datasources.production.json
+server/datasources.production.json
+.env
 
