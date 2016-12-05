@@ -34,6 +34,13 @@ app.start = function() {
 boot(app, __dirname, function(err) {
   if (err) throw err;
 
+  //Use Bluemix host and port ...
+  // var host = process.env.VCAP_APP_HOST || 'localhost';
+  // var port = process.env.VCAP_APP_PORT || 3000;
+
+  // app.set('host', host);
+  // app.set('port', port);
+
   // start the server if `$ node server.js`
   if (require.main === module)
     app.start();

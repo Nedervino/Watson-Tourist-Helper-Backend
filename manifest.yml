@@ -6,10 +6,14 @@ declared-services:
   mysql-database:
     label: mysql
     plan: '100'
+  personality-insights-service:
+    label: personality_insights
+    plan: tiered
 applications:
 - services:
   - mysql-ly #Identifier for MySQL Bound Service instance
   - text-to-speech-service
+  - personality-insights-service
   name: watson-tourist-guide
   buildpack: https://github.com/cloudfoundry/nodejs-buildpack
   command: node .

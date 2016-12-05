@@ -15,11 +15,6 @@ module.exports = function(app) {
   fillSpecificTable(app, 'Festival', 'Festivals.json');
   fillSpecificTable(app, 'Exhibition', 'Tentoonstellingen.json');
   fillSpecificTable(app, 'Shop', 'Shoppen.json');
-
-
-
-  // fillSpecificTable(app, 'Event', 'Evenementen.json');
-  // fillSpecificTable(app, 'Event', 'Evenementen.json');
 };
 
 
@@ -43,7 +38,7 @@ function fillSpecificTable(app, model, resourceLink) {
         app.models[model].create(itemArray, function(err, modelInstances) {
           if (err) throw err;
 
-          console.log('Created ' + modelInstances.length + ' instances in ' + model + ' table of database');
+          console.log('Created ' + modelInstances.length + ' instances in ' + model + ' table');
         });
         //var firstAttraction = dataObject[0];
         //console.log(firstAttraction.details.en.title);
@@ -97,7 +92,6 @@ function constructModelItem(item) {
   return modelItem;
 }
 
-//
 //http://spotzi.com/nl/kaarten/regio-indelingen/postcode/postcode-4-positie-nederland/
 function determineNeighbourhood(zipcode) {
   var zipcodeNumbers = parseInt(zipcode.substr(0,4));
@@ -106,40 +100,40 @@ function determineNeighbourhood(zipcode) {
     case 1022:
     case 1031:
     case 1032:
-      return "Noordelijke IJ-oever";  //
+      return "Noordelijke IJ-oever";
     case 1033:
-      return "NDSM"; //
+      return "NDSM";
     case 1091:
     case 1092:
     case 1093:
     case 1094:
-      return "Oosterpark";//
+      return "Oosterpark";
     case 1018:
-      return "De Plantage";//
+      return "De Plantage";
     case 1053:
     case 1054:
-      return "Oud-West";//
+      return "Oud-West";
     case 1072:
     case 1073:
     case 1074:
-      return "De Pijp"; //
+      return "De Pijp";
     case 1019:
-      return "Oostelijke Eilanden";//
+      return "Oostelijke Eilanden";
     case 1071:
     case 1075:
     case 1076:
     case 1077:
-      return "Oud-Zuid";//
+      return "Oud-Zuid";
     case 1051:
     case 1052:
     case 1013:
     case 1014:
-      return "Westerpark";//
+      return "Westerpark";
     case 1055:
     case 1056:
     case 1057:
     case 1058:
-      return "Bos en Lommer and De Baarsjes";//
+      return "Bos en Lommer and De Baarsjes";
     case 1100:
     case 1101:
     case 1102:
@@ -149,7 +143,7 @@ function determineNeighbourhood(zipcode) {
     case 1106:
     case 1107:
     case 1108:
-      return "Zuidoost";  //complete
+      return "Zuidoost";
     case 1011:
     case 1012:
     case 1015:
@@ -157,8 +151,7 @@ function determineNeighbourhood(zipcode) {
     case 1017:
       return "Amsterdam-Centrum";
     default:
-      return "Unknown";
-
+      return null;
   }
 }
 
