@@ -1,0 +1,1203 @@
+{
+  "districtName" : "",
+  "personality": [
+    {
+      "trait_id": "big5_openness",
+      "name": "Openness",
+      "category": "personality",
+      "percentile": 0.3771928514242867,
+    },
+    {
+      "trait_id": "big5_conscientiousness",
+      "name": "Conscientiousness",
+      "category": "personality",
+      "percentile": 0.7574945964171107,
+    },
+    {
+      "trait_id": "big5_extraversion",
+      "name": "Extraversion",
+      "category": "personality",
+      "percentile": 0.7050144929885335,
+    },
+    {
+      "trait_id": "big5_agreeableness",
+      "name": "Agreeableness",
+      "category": "personality",
+      "percentile": 0.8580034481075778,
+    },
+    {
+      "trait_id": "big5_neuroticism",
+      "name": "Emotional range",
+      "category": "personality",
+      "percentile": 0.6918024797191283,
+    }
+  ],
+  "needs": [
+    {
+      "trait_id": "need_closeness",
+      "name": "Closeness",
+      "category": "needs",
+      "percentile": 0.72264321320099
+    },
+    {
+      "trait_id": "need_curiosity",
+      "name": "Curiosity",
+      "category": "needs",
+      "percentile": 0.7425116633091209
+    },
+    {
+      "trait_id": "need_harmony",
+      "name": "Harmony",
+      "category": "needs",
+      "percentile": 0.8143365951087413
+    },
+    {
+      "trait_id": "need_self_expression",
+      "name": "Self-expression",
+      "category": "needs",
+      "percentile": 0.7267389138586393
+    },
+    {
+      "trait_id": "need_stability",
+      "name": "Stability",
+      "category": "needs",
+      "percentile": 0.9749889630209273
+    }
+  ],
+  "values": [
+    {
+      "trait_id": "value_conservation",
+      "name": "Conservation",
+      "category": "values",
+      "percentile": 0.9516083704167001
+    },
+    {
+      "trait_id": "value_openness_to_change",
+      "name": "Openness to change",
+      "category": "values",
+      "percentile": 0.807672580636824
+    },
+    {
+      "trait_id": "value_hedonism",
+      "name": "Hedonism",
+      "category": "values",
+      "percentile": 0.8529759970344017
+    },
+    {
+      "trait_id": "value_self_enhancement",
+      "name": "Self-enhancement",
+      "category": "values",
+      "percentile": 0.9424726774444263
+    },
+    {
+      "trait_id": "value_self_transcendence",
+      "name": "Self-transcendence",
+      "category": "values",
+      "percentile": 0.6350518411502284
+    }
+  ]
+},
+
+{
+  "numberOfDistricts": 11,
+  "districtPersonalities" : [
+    {
+      "districtName" : "Noordelijke IJ-oever",
+      "personality": [
+        {
+          "trait_id": "big5_openness",
+          "name": "Openness",
+          "category": "personality",
+          "percentile": 0.3771928514242867,
+        },
+        {
+          "trait_id": "big5_conscientiousness",
+          "name": "Conscientiousness",
+          "category": "personality",
+          "percentile": 0.7574945964171107,
+        },
+        {
+          "trait_id": "big5_extraversion",
+          "name": "Extraversion",
+          "category": "personality",
+          "percentile": 0.7050144929885335,
+        },
+        {
+          "trait_id": "big5_agreeableness",
+          "name": "Agreeableness",
+          "category": "personality",
+          "percentile": 0.8580034481075778,
+        },
+        {
+          "trait_id": "big5_neuroticism",
+          "name": "Emotional range",
+          "category": "personality",
+          "percentile": 0.6918024797191283,
+        }
+      ],
+      "needs": [
+        {
+          "trait_id": "need_closeness",
+          "name": "Closeness",
+          "category": "needs",
+          "percentile": 0.72264321320099
+        },
+        {
+          "trait_id": "need_curiosity",
+          "name": "Curiosity",
+          "category": "needs",
+          "percentile": 0.7425116633091209
+        },
+        {
+          "trait_id": "need_harmony",
+          "name": "Harmony",
+          "category": "needs",
+          "percentile": 0.8143365951087413
+        },
+        {
+          "trait_id": "need_self_expression",
+          "name": "Self-expression",
+          "category": "needs",
+          "percentile": 0.7267389138586393
+        },
+        {
+          "trait_id": "need_stability",
+          "name": "Stability",
+          "category": "needs",
+          "percentile": 0.9749889630209273
+        }
+      ],
+      "values": [
+        {
+          "trait_id": "value_conservation",
+          "name": "Conservation",
+          "category": "values",
+          "percentile": 0.9516083704167001
+        },
+        {
+          "trait_id": "value_openness_to_change",
+          "name": "Openness to change",
+          "category": "values",
+          "percentile": 0.807672580636824
+        },
+        {
+          "trait_id": "value_hedonism",
+          "name": "Hedonism",
+          "category": "values",
+          "percentile": 0.8529759970344017
+        },
+        {
+          "trait_id": "value_self_enhancement",
+          "name": "Self-enhancement",
+          "category": "values",
+          "percentile": 0.9424726774444263
+        },
+        {
+          "trait_id": "value_self_transcendence",
+          "name": "Self-transcendence",
+          "category": "values",
+          "percentile": 0.6350518411502284
+        }
+      ]
+    },
+    {
+      "districtName" : "NDSM",
+      "personality": [
+        {
+          "trait_id": "big5_openness",
+          "name": "Openness",
+          "category": "personality",
+          "percentile": 0.3771928514242867,
+        },
+        {
+          "trait_id": "big5_conscientiousness",
+          "name": "Conscientiousness",
+          "category": "personality",
+          "percentile": 0.7574945964171107,
+        },
+        {
+          "trait_id": "big5_extraversion",
+          "name": "Extraversion",
+          "category": "personality",
+          "percentile": 0.7050144929885335,
+        },
+        {
+          "trait_id": "big5_agreeableness",
+          "name": "Agreeableness",
+          "category": "personality",
+          "percentile": 0.8580034481075778,
+        },
+        {
+          "trait_id": "big5_neuroticism",
+          "name": "Emotional range",
+          "category": "personality",
+          "percentile": 0.6918024797191283,
+        }
+      ],
+      "needs": [
+        {
+          "trait_id": "need_closeness",
+          "name": "Closeness",
+          "category": "needs",
+          "percentile": 0.72264321320099
+        },
+        {
+          "trait_id": "need_curiosity",
+          "name": "Curiosity",
+          "category": "needs",
+          "percentile": 0.7425116633091209
+        },
+        {
+          "trait_id": "need_harmony",
+          "name": "Harmony",
+          "category": "needs",
+          "percentile": 0.8143365951087413
+        },
+        {
+          "trait_id": "need_self_expression",
+          "name": "Self-expression",
+          "category": "needs",
+          "percentile": 0.7267389138586393
+        },
+        {
+          "trait_id": "need_stability",
+          "name": "Stability",
+          "category": "needs",
+          "percentile": 0.9749889630209273
+        }
+      ],
+      "values": [
+        {
+          "trait_id": "value_conservation",
+          "name": "Conservation",
+          "category": "values",
+          "percentile": 0.9516083704167001
+        },
+        {
+          "trait_id": "value_openness_to_change",
+          "name": "Openness to change",
+          "category": "values",
+          "percentile": 0.807672580636824
+        },
+        {
+          "trait_id": "value_hedonism",
+          "name": "Hedonism",
+          "category": "values",
+          "percentile": 0.8529759970344017
+        },
+        {
+          "trait_id": "value_self_enhancement",
+          "name": "Self-enhancement",
+          "category": "values",
+          "percentile": 0.9424726774444263
+        },
+        {
+          "trait_id": "value_self_transcendence",
+          "name": "Self-transcendence",
+          "category": "values",
+          "percentile": 0.6350518411502284
+        }
+      ]
+    },
+    {
+      "districtName" : "",
+      "personality": [
+        {
+          "trait_id": "big5_openness",
+          "name": "Openness",
+          "category": "personality",
+          "percentile": 0.3771928514242867,
+        },
+        {
+          "trait_id": "big5_conscientiousness",
+          "name": "Conscientiousness",
+          "category": "personality",
+          "percentile": 0.7574945964171107,
+        },
+        {
+          "trait_id": "big5_extraversion",
+          "name": "Extraversion",
+          "category": "personality",
+          "percentile": 0.7050144929885335,
+        },
+        {
+          "trait_id": "big5_agreeableness",
+          "name": "Agreeableness",
+          "category": "personality",
+          "percentile": 0.8580034481075778,
+        },
+        {
+          "trait_id": "big5_neuroticism",
+          "name": "Emotional range",
+          "category": "personality",
+          "percentile": 0.6918024797191283,
+        }
+      ],
+      "needs": [
+        {
+          "trait_id": "need_closeness",
+          "name": "Closeness",
+          "category": "needs",
+          "percentile": 0.72264321320099
+        },
+        {
+          "trait_id": "need_curiosity",
+          "name": "Curiosity",
+          "category": "needs",
+          "percentile": 0.7425116633091209
+        },
+        {
+          "trait_id": "need_harmony",
+          "name": "Harmony",
+          "category": "needs",
+          "percentile": 0.8143365951087413
+        },
+        {
+          "trait_id": "need_self_expression",
+          "name": "Self-expression",
+          "category": "needs",
+          "percentile": 0.7267389138586393
+        },
+        {
+          "trait_id": "need_stability",
+          "name": "Stability",
+          "category": "needs",
+          "percentile": 0.9749889630209273
+        }
+      ],
+      "values": [
+        {
+          "trait_id": "value_conservation",
+          "name": "Conservation",
+          "category": "values",
+          "percentile": 0.9516083704167001
+        },
+        {
+          "trait_id": "value_openness_to_change",
+          "name": "Openness to change",
+          "category": "values",
+          "percentile": 0.807672580636824
+        },
+        {
+          "trait_id": "value_hedonism",
+          "name": "Hedonism",
+          "category": "values",
+          "percentile": 0.8529759970344017
+        },
+        {
+          "trait_id": "value_self_enhancement",
+          "name": "Self-enhancement",
+          "category": "values",
+          "percentile": 0.9424726774444263
+        },
+        {
+          "trait_id": "value_self_transcendence",
+          "name": "Self-transcendence",
+          "category": "values",
+          "percentile": 0.6350518411502284
+        }
+      ]
+    },
+    {
+      "districtName" : "",
+      "personality": [
+        {
+          "trait_id": "big5_openness",
+          "name": "Openness",
+          "category": "personality",
+          "percentile": 0.3771928514242867,
+        },
+        {
+          "trait_id": "big5_conscientiousness",
+          "name": "Conscientiousness",
+          "category": "personality",
+          "percentile": 0.7574945964171107,
+        },
+        {
+          "trait_id": "big5_extraversion",
+          "name": "Extraversion",
+          "category": "personality",
+          "percentile": 0.7050144929885335,
+        },
+        {
+          "trait_id": "big5_agreeableness",
+          "name": "Agreeableness",
+          "category": "personality",
+          "percentile": 0.8580034481075778,
+        },
+        {
+          "trait_id": "big5_neuroticism",
+          "name": "Emotional range",
+          "category": "personality",
+          "percentile": 0.6918024797191283,
+        }
+      ],
+      "needs": [
+        {
+          "trait_id": "need_closeness",
+          "name": "Closeness",
+          "category": "needs",
+          "percentile": 0.72264321320099
+        },
+        {
+          "trait_id": "need_curiosity",
+          "name": "Curiosity",
+          "category": "needs",
+          "percentile": 0.7425116633091209
+        },
+        {
+          "trait_id": "need_harmony",
+          "name": "Harmony",
+          "category": "needs",
+          "percentile": 0.8143365951087413
+        },
+        {
+          "trait_id": "need_self_expression",
+          "name": "Self-expression",
+          "category": "needs",
+          "percentile": 0.7267389138586393
+        },
+        {
+          "trait_id": "need_stability",
+          "name": "Stability",
+          "category": "needs",
+          "percentile": 0.9749889630209273
+        }
+      ],
+      "values": [
+        {
+          "trait_id": "value_conservation",
+          "name": "Conservation",
+          "category": "values",
+          "percentile": 0.9516083704167001
+        },
+        {
+          "trait_id": "value_openness_to_change",
+          "name": "Openness to change",
+          "category": "values",
+          "percentile": 0.807672580636824
+        },
+        {
+          "trait_id": "value_hedonism",
+          "name": "Hedonism",
+          "category": "values",
+          "percentile": 0.8529759970344017
+        },
+        {
+          "trait_id": "value_self_enhancement",
+          "name": "Self-enhancement",
+          "category": "values",
+          "percentile": 0.9424726774444263
+        },
+        {
+          "trait_id": "value_self_transcendence",
+          "name": "Self-transcendence",
+          "category": "values",
+          "percentile": 0.6350518411502284
+        }
+      ]
+    },
+    {
+      "districtName" : "",
+      "personality": [
+        {
+          "trait_id": "big5_openness",
+          "name": "Openness",
+          "category": "personality",
+          "percentile": 0.3771928514242867,
+        },
+        {
+          "trait_id": "big5_conscientiousness",
+          "name": "Conscientiousness",
+          "category": "personality",
+          "percentile": 0.7574945964171107,
+        },
+        {
+          "trait_id": "big5_extraversion",
+          "name": "Extraversion",
+          "category": "personality",
+          "percentile": 0.7050144929885335,
+        },
+        {
+          "trait_id": "big5_agreeableness",
+          "name": "Agreeableness",
+          "category": "personality",
+          "percentile": 0.8580034481075778,
+        },
+        {
+          "trait_id": "big5_neuroticism",
+          "name": "Emotional range",
+          "category": "personality",
+          "percentile": 0.6918024797191283,
+        }
+      ],
+      "needs": [
+        {
+          "trait_id": "need_closeness",
+          "name": "Closeness",
+          "category": "needs",
+          "percentile": 0.72264321320099
+        },
+        {
+          "trait_id": "need_curiosity",
+          "name": "Curiosity",
+          "category": "needs",
+          "percentile": 0.7425116633091209
+        },
+        {
+          "trait_id": "need_harmony",
+          "name": "Harmony",
+          "category": "needs",
+          "percentile": 0.8143365951087413
+        },
+        {
+          "trait_id": "need_self_expression",
+          "name": "Self-expression",
+          "category": "needs",
+          "percentile": 0.7267389138586393
+        },
+        {
+          "trait_id": "need_stability",
+          "name": "Stability",
+          "category": "needs",
+          "percentile": 0.9749889630209273
+        }
+      ],
+      "values": [
+        {
+          "trait_id": "value_conservation",
+          "name": "Conservation",
+          "category": "values",
+          "percentile": 0.9516083704167001
+        },
+        {
+          "trait_id": "value_openness_to_change",
+          "name": "Openness to change",
+          "category": "values",
+          "percentile": 0.807672580636824
+        },
+        {
+          "trait_id": "value_hedonism",
+          "name": "Hedonism",
+          "category": "values",
+          "percentile": 0.8529759970344017
+        },
+        {
+          "trait_id": "value_self_enhancement",
+          "name": "Self-enhancement",
+          "category": "values",
+          "percentile": 0.9424726774444263
+        },
+        {
+          "trait_id": "value_self_transcendence",
+          "name": "Self-transcendence",
+          "category": "values",
+          "percentile": 0.6350518411502284
+        }
+      ]
+    },
+    {
+      "districtName" : "",
+      "personality": [
+        {
+          "trait_id": "big5_openness",
+          "name": "Openness",
+          "category": "personality",
+          "percentile": 0.3771928514242867,
+        },
+        {
+          "trait_id": "big5_conscientiousness",
+          "name": "Conscientiousness",
+          "category": "personality",
+          "percentile": 0.7574945964171107,
+        },
+        {
+          "trait_id": "big5_extraversion",
+          "name": "Extraversion",
+          "category": "personality",
+          "percentile": 0.7050144929885335,
+        },
+        {
+          "trait_id": "big5_agreeableness",
+          "name": "Agreeableness",
+          "category": "personality",
+          "percentile": 0.8580034481075778,
+        },
+        {
+          "trait_id": "big5_neuroticism",
+          "name": "Emotional range",
+          "category": "personality",
+          "percentile": 0.6918024797191283,
+        }
+      ],
+      "needs": [
+        {
+          "trait_id": "need_closeness",
+          "name": "Closeness",
+          "category": "needs",
+          "percentile": 0.72264321320099
+        },
+        {
+          "trait_id": "need_curiosity",
+          "name": "Curiosity",
+          "category": "needs",
+          "percentile": 0.7425116633091209
+        },
+        {
+          "trait_id": "need_harmony",
+          "name": "Harmony",
+          "category": "needs",
+          "percentile": 0.8143365951087413
+        },
+        {
+          "trait_id": "need_self_expression",
+          "name": "Self-expression",
+          "category": "needs",
+          "percentile": 0.7267389138586393
+        },
+        {
+          "trait_id": "need_stability",
+          "name": "Stability",
+          "category": "needs",
+          "percentile": 0.9749889630209273
+        }
+      ],
+      "values": [
+        {
+          "trait_id": "value_conservation",
+          "name": "Conservation",
+          "category": "values",
+          "percentile": 0.9516083704167001
+        },
+        {
+          "trait_id": "value_openness_to_change",
+          "name": "Openness to change",
+          "category": "values",
+          "percentile": 0.807672580636824
+        },
+        {
+          "trait_id": "value_hedonism",
+          "name": "Hedonism",
+          "category": "values",
+          "percentile": 0.8529759970344017
+        },
+        {
+          "trait_id": "value_self_enhancement",
+          "name": "Self-enhancement",
+          "category": "values",
+          "percentile": 0.9424726774444263
+        },
+        {
+          "trait_id": "value_self_transcendence",
+          "name": "Self-transcendence",
+          "category": "values",
+          "percentile": 0.6350518411502284
+        }
+      ]
+    },
+    {
+      "districtName" : "",
+      "personality": [
+        {
+          "trait_id": "big5_openness",
+          "name": "Openness",
+          "category": "personality",
+          "percentile": 0.3771928514242867,
+        },
+        {
+          "trait_id": "big5_conscientiousness",
+          "name": "Conscientiousness",
+          "category": "personality",
+          "percentile": 0.7574945964171107,
+        },
+        {
+          "trait_id": "big5_extraversion",
+          "name": "Extraversion",
+          "category": "personality",
+          "percentile": 0.7050144929885335,
+        },
+        {
+          "trait_id": "big5_agreeableness",
+          "name": "Agreeableness",
+          "category": "personality",
+          "percentile": 0.8580034481075778,
+        },
+        {
+          "trait_id": "big5_neuroticism",
+          "name": "Emotional range",
+          "category": "personality",
+          "percentile": 0.6918024797191283,
+        }
+      ],
+      "needs": [
+        {
+          "trait_id": "need_closeness",
+          "name": "Closeness",
+          "category": "needs",
+          "percentile": 0.72264321320099
+        },
+        {
+          "trait_id": "need_curiosity",
+          "name": "Curiosity",
+          "category": "needs",
+          "percentile": 0.7425116633091209
+        },
+        {
+          "trait_id": "need_harmony",
+          "name": "Harmony",
+          "category": "needs",
+          "percentile": 0.8143365951087413
+        },
+        {
+          "trait_id": "need_self_expression",
+          "name": "Self-expression",
+          "category": "needs",
+          "percentile": 0.7267389138586393
+        },
+        {
+          "trait_id": "need_stability",
+          "name": "Stability",
+          "category": "needs",
+          "percentile": 0.9749889630209273
+        }
+      ],
+      "values": [
+        {
+          "trait_id": "value_conservation",
+          "name": "Conservation",
+          "category": "values",
+          "percentile": 0.9516083704167001
+        },
+        {
+          "trait_id": "value_openness_to_change",
+          "name": "Openness to change",
+          "category": "values",
+          "percentile": 0.807672580636824
+        },
+        {
+          "trait_id": "value_hedonism",
+          "name": "Hedonism",
+          "category": "values",
+          "percentile": 0.8529759970344017
+        },
+        {
+          "trait_id": "value_self_enhancement",
+          "name": "Self-enhancement",
+          "category": "values",
+          "percentile": 0.9424726774444263
+        },
+        {
+          "trait_id": "value_self_transcendence",
+          "name": "Self-transcendence",
+          "category": "values",
+          "percentile": 0.6350518411502284
+        }
+      ]
+    },
+    {
+      "districtName" : "",
+      "personality": [
+        {
+          "trait_id": "big5_openness",
+          "name": "Openness",
+          "category": "personality",
+          "percentile": 0.3771928514242867,
+        },
+        {
+          "trait_id": "big5_conscientiousness",
+          "name": "Conscientiousness",
+          "category": "personality",
+          "percentile": 0.7574945964171107,
+        },
+        {
+          "trait_id": "big5_extraversion",
+          "name": "Extraversion",
+          "category": "personality",
+          "percentile": 0.7050144929885335,
+        },
+        {
+          "trait_id": "big5_agreeableness",
+          "name": "Agreeableness",
+          "category": "personality",
+          "percentile": 0.8580034481075778,
+        },
+        {
+          "trait_id": "big5_neuroticism",
+          "name": "Emotional range",
+          "category": "personality",
+          "percentile": 0.6918024797191283,
+        }
+      ],
+      "needs": [
+        {
+          "trait_id": "need_closeness",
+          "name": "Closeness",
+          "category": "needs",
+          "percentile": 0.72264321320099
+        },
+        {
+          "trait_id": "need_curiosity",
+          "name": "Curiosity",
+          "category": "needs",
+          "percentile": 0.7425116633091209
+        },
+        {
+          "trait_id": "need_harmony",
+          "name": "Harmony",
+          "category": "needs",
+          "percentile": 0.8143365951087413
+        },
+        {
+          "trait_id": "need_self_expression",
+          "name": "Self-expression",
+          "category": "needs",
+          "percentile": 0.7267389138586393
+        },
+        {
+          "trait_id": "need_stability",
+          "name": "Stability",
+          "category": "needs",
+          "percentile": 0.9749889630209273
+        }
+      ],
+      "values": [
+        {
+          "trait_id": "value_conservation",
+          "name": "Conservation",
+          "category": "values",
+          "percentile": 0.9516083704167001
+        },
+        {
+          "trait_id": "value_openness_to_change",
+          "name": "Openness to change",
+          "category": "values",
+          "percentile": 0.807672580636824
+        },
+        {
+          "trait_id": "value_hedonism",
+          "name": "Hedonism",
+          "category": "values",
+          "percentile": 0.8529759970344017
+        },
+        {
+          "trait_id": "value_self_enhancement",
+          "name": "Self-enhancement",
+          "category": "values",
+          "percentile": 0.9424726774444263
+        },
+        {
+          "trait_id": "value_self_transcendence",
+          "name": "Self-transcendence",
+          "category": "values",
+          "percentile": 0.6350518411502284
+        }
+      ]
+    },
+    {
+      "districtName" : "",
+      "personality": [
+        {
+          "trait_id": "big5_openness",
+          "name": "Openness",
+          "category": "personality",
+          "percentile": 0.3771928514242867,
+        },
+        {
+          "trait_id": "big5_conscientiousness",
+          "name": "Conscientiousness",
+          "category": "personality",
+          "percentile": 0.7574945964171107,
+        },
+        {
+          "trait_id": "big5_extraversion",
+          "name": "Extraversion",
+          "category": "personality",
+          "percentile": 0.7050144929885335,
+        },
+        {
+          "trait_id": "big5_agreeableness",
+          "name": "Agreeableness",
+          "category": "personality",
+          "percentile": 0.8580034481075778,
+        },
+        {
+          "trait_id": "big5_neuroticism",
+          "name": "Emotional range",
+          "category": "personality",
+          "percentile": 0.6918024797191283,
+        }
+      ],
+      "needs": [
+        {
+          "trait_id": "need_closeness",
+          "name": "Closeness",
+          "category": "needs",
+          "percentile": 0.72264321320099
+        },
+        {
+          "trait_id": "need_curiosity",
+          "name": "Curiosity",
+          "category": "needs",
+          "percentile": 0.7425116633091209
+        },
+        {
+          "trait_id": "need_harmony",
+          "name": "Harmony",
+          "category": "needs",
+          "percentile": 0.8143365951087413
+        },
+        {
+          "trait_id": "need_self_expression",
+          "name": "Self-expression",
+          "category": "needs",
+          "percentile": 0.7267389138586393
+        },
+        {
+          "trait_id": "need_stability",
+          "name": "Stability",
+          "category": "needs",
+          "percentile": 0.9749889630209273
+        }
+      ],
+      "values": [
+        {
+          "trait_id": "value_conservation",
+          "name": "Conservation",
+          "category": "values",
+          "percentile": 0.9516083704167001
+        },
+        {
+          "trait_id": "value_openness_to_change",
+          "name": "Openness to change",
+          "category": "values",
+          "percentile": 0.807672580636824
+        },
+        {
+          "trait_id": "value_hedonism",
+          "name": "Hedonism",
+          "category": "values",
+          "percentile": 0.8529759970344017
+        },
+        {
+          "trait_id": "value_self_enhancement",
+          "name": "Self-enhancement",
+          "category": "values",
+          "percentile": 0.9424726774444263
+        },
+        {
+          "trait_id": "value_self_transcendence",
+          "name": "Self-transcendence",
+          "category": "values",
+          "percentile": 0.6350518411502284
+        }
+      ]
+    },
+    {
+      "districtName" : "",
+      "personality": [
+        {
+          "trait_id": "big5_openness",
+          "name": "Openness",
+          "category": "personality",
+          "percentile": 0.3771928514242867,
+        },
+        {
+          "trait_id": "big5_conscientiousness",
+          "name": "Conscientiousness",
+          "category": "personality",
+          "percentile": 0.7574945964171107,
+        },
+        {
+          "trait_id": "big5_extraversion",
+          "name": "Extraversion",
+          "category": "personality",
+          "percentile": 0.7050144929885335,
+        },
+        {
+          "trait_id": "big5_agreeableness",
+          "name": "Agreeableness",
+          "category": "personality",
+          "percentile": 0.8580034481075778,
+        },
+        {
+          "trait_id": "big5_neuroticism",
+          "name": "Emotional range",
+          "category": "personality",
+          "percentile": 0.6918024797191283,
+        }
+      ],
+      "needs": [
+        {
+          "trait_id": "need_closeness",
+          "name": "Closeness",
+          "category": "needs",
+          "percentile": 0.72264321320099
+        },
+        {
+          "trait_id": "need_curiosity",
+          "name": "Curiosity",
+          "category": "needs",
+          "percentile": 0.7425116633091209
+        },
+        {
+          "trait_id": "need_harmony",
+          "name": "Harmony",
+          "category": "needs",
+          "percentile": 0.8143365951087413
+        },
+        {
+          "trait_id": "need_self_expression",
+          "name": "Self-expression",
+          "category": "needs",
+          "percentile": 0.7267389138586393
+        },
+        {
+          "trait_id": "need_stability",
+          "name": "Stability",
+          "category": "needs",
+          "percentile": 0.9749889630209273
+        }
+      ],
+      "values": [
+        {
+          "trait_id": "value_conservation",
+          "name": "Conservation",
+          "category": "values",
+          "percentile": 0.9516083704167001
+        },
+        {
+          "trait_id": "value_openness_to_change",
+          "name": "Openness to change",
+          "category": "values",
+          "percentile": 0.807672580636824
+        },
+        {
+          "trait_id": "value_hedonism",
+          "name": "Hedonism",
+          "category": "values",
+          "percentile": 0.8529759970344017
+        },
+        {
+          "trait_id": "value_self_enhancement",
+          "name": "Self-enhancement",
+          "category": "values",
+          "percentile": 0.9424726774444263
+        },
+        {
+          "trait_id": "value_self_transcendence",
+          "name": "Self-transcendence",
+          "category": "values",
+          "percentile": 0.6350518411502284
+        }
+      ]
+    },
+    {
+      "districtName" : "",
+      "personality": [
+        {
+          "trait_id": "big5_openness",
+          "name": "Openness",
+          "category": "personality",
+          "percentile": 0.3771928514242867,
+        },
+        {
+          "trait_id": "big5_conscientiousness",
+          "name": "Conscientiousness",
+          "category": "personality",
+          "percentile": 0.7574945964171107,
+        },
+        {
+          "trait_id": "big5_extraversion",
+          "name": "Extraversion",
+          "category": "personality",
+          "percentile": 0.7050144929885335,
+        },
+        {
+          "trait_id": "big5_agreeableness",
+          "name": "Agreeableness",
+          "category": "personality",
+          "percentile": 0.8580034481075778,
+        },
+        {
+          "trait_id": "big5_neuroticism",
+          "name": "Emotional range",
+          "category": "personality",
+          "percentile": 0.6918024797191283,
+        }
+      ],
+      "needs": [
+        {
+          "trait_id": "need_closeness",
+          "name": "Closeness",
+          "category": "needs",
+          "percentile": 0.72264321320099
+        },
+        {
+          "trait_id": "need_curiosity",
+          "name": "Curiosity",
+          "category": "needs",
+          "percentile": 0.7425116633091209
+        },
+        {
+          "trait_id": "need_harmony",
+          "name": "Harmony",
+          "category": "needs",
+          "percentile": 0.8143365951087413
+        },
+        {
+          "trait_id": "need_self_expression",
+          "name": "Self-expression",
+          "category": "needs",
+          "percentile": 0.7267389138586393
+        },
+        {
+          "trait_id": "need_stability",
+          "name": "Stability",
+          "category": "needs",
+          "percentile": 0.9749889630209273
+        }
+      ],
+      "values": [
+        {
+          "trait_id": "value_conservation",
+          "name": "Conservation",
+          "category": "values",
+          "percentile": 0.9516083704167001
+        },
+        {
+          "trait_id": "value_openness_to_change",
+          "name": "Openness to change",
+          "category": "values",
+          "percentile": 0.807672580636824
+        },
+        {
+          "trait_id": "value_hedonism",
+          "name": "Hedonism",
+          "category": "values",
+          "percentile": 0.8529759970344017
+        },
+        {
+          "trait_id": "value_self_enhancement",
+          "name": "Self-enhancement",
+          "category": "values",
+          "percentile": 0.9424726774444263
+        },
+        {
+          "trait_id": "value_self_transcendence",
+          "name": "Self-transcendence",
+          "category": "values",
+          "percentile": 0.6350518411502284
+        }
+      ]
+    },
+
+
+
+
+
+
+
+
+
+  ]
+}
