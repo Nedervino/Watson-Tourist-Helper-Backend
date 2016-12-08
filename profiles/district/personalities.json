@@ -1,104 +1,4 @@
 {
-  "districtName" : "",
-  "personality": [
-    {
-      "trait_id": "big5_openness",
-      "name": "Openness",
-      "category": "personality",
-      "percentile": 0.3771928514242867,
-    },
-    {
-      "trait_id": "big5_conscientiousness",
-      "name": "Conscientiousness",
-      "category": "personality",
-      "percentile": 0.7574945964171107,
-    },
-    {
-      "trait_id": "big5_extraversion",
-      "name": "Extraversion",
-      "category": "personality",
-      "percentile": 0.7050144929885335,
-    },
-    {
-      "trait_id": "big5_agreeableness",
-      "name": "Agreeableness",
-      "category": "personality",
-      "percentile": 0.8580034481075778,
-    },
-    {
-      "trait_id": "big5_neuroticism",
-      "name": "Emotional range",
-      "category": "personality",
-      "percentile": 0.6918024797191283,
-    }
-  ],
-  "needs": [
-    {
-      "trait_id": "need_closeness",
-      "name": "Closeness",
-      "category": "needs",
-      "percentile": 0.72264321320099
-    },
-    {
-      "trait_id": "need_curiosity",
-      "name": "Curiosity",
-      "category": "needs",
-      "percentile": 0.7425116633091209
-    },
-    {
-      "trait_id": "need_harmony",
-      "name": "Harmony",
-      "category": "needs",
-      "percentile": 0.8143365951087413
-    },
-    {
-      "trait_id": "need_self_expression",
-      "name": "Self-expression",
-      "category": "needs",
-      "percentile": 0.7267389138586393
-    },
-    {
-      "trait_id": "need_stability",
-      "name": "Stability",
-      "category": "needs",
-      "percentile": 0.9749889630209273
-    }
-  ],
-  "values": [
-    {
-      "trait_id": "value_conservation",
-      "name": "Conservation",
-      "category": "values",
-      "percentile": 0.9516083704167001
-    },
-    {
-      "trait_id": "value_openness_to_change",
-      "name": "Openness to change",
-      "category": "values",
-      "percentile": 0.807672580636824
-    },
-    {
-      "trait_id": "value_hedonism",
-      "name": "Hedonism",
-      "category": "values",
-      "percentile": 0.8529759970344017
-    },
-    {
-      "trait_id": "value_self_enhancement",
-      "name": "Self-enhancement",
-      "category": "values",
-      "percentile": 0.9424726774444263
-    },
-    {
-      "trait_id": "value_self_transcendence",
-      "name": "Self-transcendence",
-      "category": "values",
-      "percentile": 0.6350518411502284
-    }
-  ]
-},
-
-{
   "numberOfDistricts": 11,
   "districtPersonalities" : [
     {
@@ -108,31 +8,31 @@
           "trait_id": "big5_openness",
           "name": "Openness",
           "category": "personality",
-          "percentile": 0.3771928514242867,
+          "percentile": 0.53
         },
         {
           "trait_id": "big5_conscientiousness",
           "name": "Conscientiousness",
           "category": "personality",
-          "percentile": 0.7574945964171107,
+          "percentile": 0.79
         },
         {
           "trait_id": "big5_extraversion",
           "name": "Extraversion",
           "category": "personality",
-          "percentile": 0.7050144929885335,
+          "percentile": 0.57
         },
         {
           "trait_id": "big5_agreeableness",
           "name": "Agreeableness",
           "category": "personality",
-          "percentile": 0.8580034481075778,
+          "percentile": 0.61
         },
         {
           "trait_id": "big5_neuroticism",
           "name": "Emotional range",
           "category": "personality",
-          "percentile": 0.6918024797191283,
+          "percentile": 0.67
         }
       ],
       "needs": [
@@ -140,31 +40,31 @@
           "trait_id": "need_closeness",
           "name": "Closeness",
           "category": "needs",
-          "percentile": 0.72264321320099
+          "percentile": 0.63
         },
         {
           "trait_id": "need_curiosity",
           "name": "Curiosity",
           "category": "needs",
-          "percentile": 0.7425116633091209
+          "percentile": 0.84
         },
         {
           "trait_id": "need_harmony",
           "name": "Harmony",
           "category": "needs",
-          "percentile": 0.8143365951087413
+          "percentile": 0.62
         },
         {
           "trait_id": "need_self_expression",
           "name": "Self-expression",
           "category": "needs",
-          "percentile": 0.7267389138586393
+          "percentile": 0.72
         },
         {
           "trait_id": "need_stability",
           "name": "Stability",
           "category": "needs",
-          "percentile": 0.9749889630209273
+          "percentile": 0.81
         }
       ],
       "values": [
@@ -172,31 +72,31 @@
           "trait_id": "value_conservation",
           "name": "Conservation",
           "category": "values",
-          "percentile": 0.9516083704167001
+          "percentile": 0.78
         },
         {
           "trait_id": "value_openness_to_change",
           "name": "Openness to change",
           "category": "values",
-          "percentile": 0.807672580636824
+          "percentile": 0.92
         },
         {
           "trait_id": "value_hedonism",
           "name": "Hedonism",
           "category": "values",
-          "percentile": 0.8529759970344017
+          "percentile": 0.53
         },
         {
           "trait_id": "value_self_enhancement",
           "name": "Self-enhancement",
           "category": "values",
-          "percentile": 0.9424726774444263
+          "percentile": 0.67
         },
         {
           "trait_id": "value_self_transcendence",
           "name": "Self-transcendence",
           "category": "values",
-          "percentile": 0.6350518411502284
+          "percentile": 0.58
         }
       ]
     },
@@ -207,31 +107,31 @@
           "trait_id": "big5_openness",
           "name": "Openness",
           "category": "personality",
-          "percentile": 0.3771928514242867,
+          "percentile": 0.48
         },
         {
           "trait_id": "big5_conscientiousness",
           "name": "Conscientiousness",
           "category": "personality",
-          "percentile": 0.7574945964171107,
+          "percentile": 0.66
         },
         {
           "trait_id": "big5_extraversion",
           "name": "Extraversion",
           "category": "personality",
-          "percentile": 0.7050144929885335,
+          "percentile": 0.54
         },
         {
           "trait_id": "big5_agreeableness",
           "name": "Agreeableness",
           "category": "personality",
-          "percentile": 0.8580034481075778,
+          "percentile": 0.49
         },
         {
           "trait_id": "big5_neuroticism",
           "name": "Emotional range",
           "category": "personality",
-          "percentile": 0.6918024797191283,
+          "percentile": 0.72
         }
       ],
       "needs": [
@@ -239,31 +139,31 @@
           "trait_id": "need_closeness",
           "name": "Closeness",
           "category": "needs",
-          "percentile": 0.72264321320099
+          "percentile": 0.79
         },
         {
           "trait_id": "need_curiosity",
           "name": "Curiosity",
           "category": "needs",
-          "percentile": 0.7425116633091209
+          "percentile": 0.83
         },
         {
           "trait_id": "need_harmony",
           "name": "Harmony",
           "category": "needs",
-          "percentile": 0.8143365951087413
+          "percentile": 0.68
         },
         {
           "trait_id": "need_self_expression",
           "name": "Self-expression",
           "category": "needs",
-          "percentile": 0.7267389138586393
+          "percentile": 0.91
         },
         {
           "trait_id": "need_stability",
           "name": "Stability",
           "category": "needs",
-          "percentile": 0.9749889630209273
+          "percentile": 0.84
         }
       ],
       "values": [
@@ -271,66 +171,66 @@
           "trait_id": "value_conservation",
           "name": "Conservation",
           "category": "values",
-          "percentile": 0.9516083704167001
+          "percentile": 0.55
         },
         {
           "trait_id": "value_openness_to_change",
           "name": "Openness to change",
           "category": "values",
-          "percentile": 0.807672580636824
+          "percentile": 0.57
         },
         {
           "trait_id": "value_hedonism",
           "name": "Hedonism",
           "category": "values",
-          "percentile": 0.8529759970344017
+          "percentile": 0.55
         },
         {
           "trait_id": "value_self_enhancement",
           "name": "Self-enhancement",
           "category": "values",
-          "percentile": 0.9424726774444263
+          "percentile": 0.78
         },
         {
           "trait_id": "value_self_transcendence",
           "name": "Self-transcendence",
           "category": "values",
-          "percentile": 0.6350518411502284
+          "percentile": 0.58
         }
       ]
     },
     {
-      "districtName" : "",
+      "districtName" : "Oosterpark",
       "personality": [
         {
           "trait_id": "big5_openness",
           "name": "Openness",
           "category": "personality",
-          "percentile": 0.3771928514242867,
+          "percentile": 0.94
         },
         {
           "trait_id": "big5_conscientiousness",
           "name": "Conscientiousness",
           "category": "personality",
-          "percentile": 0.7574945964171107,
+          "percentile": 0.64
         },
         {
           "trait_id": "big5_extraversion",
           "name": "Extraversion",
           "category": "personality",
-          "percentile": 0.7050144929885335,
+          "percentile": 0.88
         },
         {
           "trait_id": "big5_agreeableness",
           "name": "Agreeableness",
           "category": "personality",
-          "percentile": 0.8580034481075778,
+          "percentile": 0.76
         },
         {
           "trait_id": "big5_neuroticism",
           "name": "Emotional range",
           "category": "personality",
-          "percentile": 0.6918024797191283,
+          "percentile": 0.50
         }
       ],
       "needs": [
@@ -338,31 +238,31 @@
           "trait_id": "need_closeness",
           "name": "Closeness",
           "category": "needs",
-          "percentile": 0.72264321320099
+          "percentile": 0.44
         },
         {
           "trait_id": "need_curiosity",
           "name": "Curiosity",
           "category": "needs",
-          "percentile": 0.7425116633091209
+          "percentile": 0.78
         },
         {
           "trait_id": "need_harmony",
           "name": "Harmony",
           "category": "needs",
-          "percentile": 0.8143365951087413
+          "percentile": 0.87
         },
         {
           "trait_id": "need_self_expression",
           "name": "Self-expression",
           "category": "needs",
-          "percentile": 0.7267389138586393
+          "percentile": 0.93
         },
         {
           "trait_id": "need_stability",
           "name": "Stability",
           "category": "needs",
-          "percentile": 0.9749889630209273
+          "percentile": 0.64
         }
       ],
       "values": [
@@ -370,66 +270,66 @@
           "trait_id": "value_conservation",
           "name": "Conservation",
           "category": "values",
-          "percentile": 0.9516083704167001
+          "percentile": 0.93
         },
         {
           "trait_id": "value_openness_to_change",
           "name": "Openness to change",
           "category": "values",
-          "percentile": 0.807672580636824
+          "percentile": 0.88
         },
         {
           "trait_id": "value_hedonism",
           "name": "Hedonism",
           "category": "values",
-          "percentile": 0.8529759970344017
+          "percentile": 0.84
         },
         {
           "trait_id": "value_self_enhancement",
           "name": "Self-enhancement",
           "category": "values",
-          "percentile": 0.9424726774444263
+          "percentile": 0.64
         },
         {
           "trait_id": "value_self_transcendence",
           "name": "Self-transcendence",
           "category": "values",
-          "percentile": 0.6350518411502284
+          "percentile": 0.87
         }
       ]
     },
     {
-      "districtName" : "",
+      "districtName" : "De Plantage",
       "personality": [
         {
           "trait_id": "big5_openness",
           "name": "Openness",
           "category": "personality",
-          "percentile": 0.3771928514242867,
+          "percentile": 0.68
         },
         {
           "trait_id": "big5_conscientiousness",
           "name": "Conscientiousness",
           "category": "personality",
-          "percentile": 0.7574945964171107,
+          "percentile": 0.91
         },
         {
           "trait_id": "big5_extraversion",
           "name": "Extraversion",
           "category": "personality",
-          "percentile": 0.7050144929885335,
+          "percentile": 0.69
         },
         {
           "trait_id": "big5_agreeableness",
           "name": "Agreeableness",
           "category": "personality",
-          "percentile": 0.8580034481075778,
+          "percentile": 0.82
         },
         {
           "trait_id": "big5_neuroticism",
           "name": "Emotional range",
           "category": "personality",
-          "percentile": 0.6918024797191283,
+          "percentile": 0.53
         }
       ],
       "needs": [
@@ -437,31 +337,31 @@
           "trait_id": "need_closeness",
           "name": "Closeness",
           "category": "needs",
-          "percentile": 0.72264321320099
+          "percentile": 0.51
         },
         {
           "trait_id": "need_curiosity",
           "name": "Curiosity",
           "category": "needs",
-          "percentile": 0.7425116633091209
+          "percentile": 0.64
         },
         {
           "trait_id": "need_harmony",
           "name": "Harmony",
           "category": "needs",
-          "percentile": 0.8143365951087413
+          "percentile": 0.77
         },
         {
           "trait_id": "need_self_expression",
           "name": "Self-expression",
           "category": "needs",
-          "percentile": 0.7267389138586393
+          "percentile": 0.81
         },
         {
           "trait_id": "need_stability",
           "name": "Stability",
           "category": "needs",
-          "percentile": 0.9749889630209273
+          "percentile": 0.76
         }
       ],
       "values": [
@@ -469,66 +369,66 @@
           "trait_id": "value_conservation",
           "name": "Conservation",
           "category": "values",
-          "percentile": 0.9516083704167001
+          "percentile": 0.59
         },
         {
           "trait_id": "value_openness_to_change",
           "name": "Openness to change",
           "category": "values",
-          "percentile": 0.807672580636824
+          "percentile": 0.63
         },
         {
           "trait_id": "value_hedonism",
           "name": "Hedonism",
           "category": "values",
-          "percentile": 0.8529759970344017
+          "percentile": 0.64
         },
         {
           "trait_id": "value_self_enhancement",
           "name": "Self-enhancement",
           "category": "values",
-          "percentile": 0.9424726774444263
+          "percentile": 0.67
         },
         {
           "trait_id": "value_self_transcendence",
           "name": "Self-transcendence",
           "category": "values",
-          "percentile": 0.6350518411502284
+          "percentile": 0.66
         }
       ]
     },
     {
-      "districtName" : "",
+      "districtName" : "Oud-West",
       "personality": [
         {
           "trait_id": "big5_openness",
           "name": "Openness",
           "category": "personality",
-          "percentile": 0.3771928514242867,
+          "percentile": 0.84
         },
         {
           "trait_id": "big5_conscientiousness",
           "name": "Conscientiousness",
           "category": "personality",
-          "percentile": 0.7574945964171107,
+          "percentile": 0.69
         },
         {
           "trait_id": "big5_extraversion",
           "name": "Extraversion",
           "category": "personality",
-          "percentile": 0.7050144929885335,
+          "percentile": 0.81
         },
         {
           "trait_id": "big5_agreeableness",
           "name": "Agreeableness",
           "category": "personality",
-          "percentile": 0.8580034481075778,
+          "percentile": 0.69
         },
         {
           "trait_id": "big5_neuroticism",
           "name": "Emotional range",
           "category": "personality",
-          "percentile": 0.6918024797191283,
+          "percentile": 0.70
         }
       ],
       "needs": [
@@ -536,31 +436,31 @@
           "trait_id": "need_closeness",
           "name": "Closeness",
           "category": "needs",
-          "percentile": 0.72264321320099
+          "percentile": 0.68
         },
         {
           "trait_id": "need_curiosity",
           "name": "Curiosity",
           "category": "needs",
-          "percentile": 0.7425116633091209
+          "percentile": 0.79
         },
         {
           "trait_id": "need_harmony",
           "name": "Harmony",
           "category": "needs",
-          "percentile": 0.8143365951087413
+          "percentile": 0.65
         },
         {
           "trait_id": "need_self_expression",
           "name": "Self-expression",
           "category": "needs",
-          "percentile": 0.7267389138586393
+          "percentile": 0.88
         },
         {
           "trait_id": "need_stability",
           "name": "Stability",
           "category": "needs",
-          "percentile": 0.9749889630209273
+          "percentile": 0.72
         }
       ],
       "values": [
@@ -568,66 +468,66 @@
           "trait_id": "value_conservation",
           "name": "Conservation",
           "category": "values",
-          "percentile": 0.9516083704167001
+          "percentile": 0.85
         },
         {
           "trait_id": "value_openness_to_change",
           "name": "Openness to change",
           "category": "values",
-          "percentile": 0.807672580636824
+          "percentile": 0.55
         },
         {
           "trait_id": "value_hedonism",
           "name": "Hedonism",
           "category": "values",
-          "percentile": 0.8529759970344017
+          "percentile": 0.67
         },
         {
           "trait_id": "value_self_enhancement",
           "name": "Self-enhancement",
           "category": "values",
-          "percentile": 0.9424726774444263
+          "percentile": 0.78
         },
         {
           "trait_id": "value_self_transcendence",
           "name": "Self-transcendence",
           "category": "values",
-          "percentile": 0.6350518411502284
+          "percentile": 0.61
         }
       ]
     },
     {
-      "districtName" : "",
+      "districtName" : "De Pijp",
       "personality": [
         {
           "trait_id": "big5_openness",
           "name": "Openness",
           "category": "personality",
-          "percentile": 0.3771928514242867,
+          "percentile": 0.86
         },
         {
           "trait_id": "big5_conscientiousness",
           "name": "Conscientiousness",
           "category": "personality",
-          "percentile": 0.7574945964171107,
+          "percentile": 0.65
         },
         {
           "trait_id": "big5_extraversion",
           "name": "Extraversion",
           "category": "personality",
-          "percentile": 0.7050144929885335,
+          "percentile": 0.78
         },
         {
           "trait_id": "big5_agreeableness",
           "name": "Agreeableness",
           "category": "personality",
-          "percentile": 0.8580034481075778,
+          "percentile": 0.94
         },
         {
           "trait_id": "big5_neuroticism",
           "name": "Emotional range",
           "category": "personality",
-          "percentile": 0.6918024797191283,
+          "percentile": 0.74
         }
       ],
       "needs": [
@@ -635,31 +535,31 @@
           "trait_id": "need_closeness",
           "name": "Closeness",
           "category": "needs",
-          "percentile": 0.72264321320099
+          "percentile": 0.52
         },
         {
           "trait_id": "need_curiosity",
           "name": "Curiosity",
           "category": "needs",
-          "percentile": 0.7425116633091209
+          "percentile": 0.72
         },
         {
           "trait_id": "need_harmony",
           "name": "Harmony",
           "category": "needs",
-          "percentile": 0.8143365951087413
+          "percentile": 0.84
         },
         {
           "trait_id": "need_self_expression",
           "name": "Self-expression",
           "category": "needs",
-          "percentile": 0.7267389138586393
+          "percentile": 0.80
         },
         {
           "trait_id": "need_stability",
           "name": "Stability",
           "category": "needs",
-          "percentile": 0.9749889630209273
+          "percentile": 0.73
         }
       ],
       "values": [
@@ -667,66 +567,66 @@
           "trait_id": "value_conservation",
           "name": "Conservation",
           "category": "values",
-          "percentile": 0.9516083704167001
+          "percentile": 0.75
         },
         {
           "trait_id": "value_openness_to_change",
           "name": "Openness to change",
           "category": "values",
-          "percentile": 0.807672580636824
+          "percentile": 0.50
         },
         {
           "trait_id": "value_hedonism",
           "name": "Hedonism",
           "category": "values",
-          "percentile": 0.8529759970344017
+          "percentile": 0.71
         },
         {
           "trait_id": "value_self_enhancement",
           "name": "Self-enhancement",
           "category": "values",
-          "percentile": 0.9424726774444263
+          "percentile": 0.77
         },
         {
           "trait_id": "value_self_transcendence",
           "name": "Self-transcendence",
           "category": "values",
-          "percentile": 0.6350518411502284
+          "percentile": 0.63
         }
       ]
     },
     {
-      "districtName" : "",
+      "districtName" : "Oostelijke Eilanden",
       "personality": [
         {
           "trait_id": "big5_openness",
           "name": "Openness",
           "category": "personality",
-          "percentile": 0.3771928514242867,
+          "percentile": 0.54
         },
         {
           "trait_id": "big5_conscientiousness",
           "name": "Conscientiousness",
           "category": "personality",
-          "percentile": 0.7574945964171107,
+          "percentile": 0.66
         },
         {
           "trait_id": "big5_extraversion",
           "name": "Extraversion",
           "category": "personality",
-          "percentile": 0.7050144929885335,
+          "percentile": 0.64
         },
         {
           "trait_id": "big5_agreeableness",
           "name": "Agreeableness",
           "category": "personality",
-          "percentile": 0.8580034481075778,
+          "percentile": 0.71
         },
         {
           "trait_id": "big5_neuroticism",
           "name": "Emotional range",
           "category": "personality",
-          "percentile": 0.6918024797191283,
+          "percentile": 0.63
         }
       ],
       "needs": [
@@ -734,31 +634,31 @@
           "trait_id": "need_closeness",
           "name": "Closeness",
           "category": "needs",
-          "percentile": 0.72264321320099
+          "percentile": 0.71
         },
         {
           "trait_id": "need_curiosity",
           "name": "Curiosity",
           "category": "needs",
-          "percentile": 0.7425116633091209
+          "percentile": 0.71
         },
         {
           "trait_id": "need_harmony",
           "name": "Harmony",
           "category": "needs",
-          "percentile": 0.8143365951087413
+          "percentile": 0.68
         },
         {
           "trait_id": "need_self_expression",
           "name": "Self-expression",
           "category": "needs",
-          "percentile": 0.7267389138586393
+          "percentile": 0.81
         },
         {
           "trait_id": "need_stability",
           "name": "Stability",
           "category": "needs",
-          "percentile": 0.9749889630209273
+          "percentile": 0.88
         }
       ],
       "values": [
@@ -766,66 +666,66 @@
           "trait_id": "value_conservation",
           "name": "Conservation",
           "category": "values",
-          "percentile": 0.9516083704167001
+          "percentile": 0.77
         },
         {
           "trait_id": "value_openness_to_change",
           "name": "Openness to change",
           "category": "values",
-          "percentile": 0.807672580636824
+          "percentile": 0.78
         },
         {
           "trait_id": "value_hedonism",
           "name": "Hedonism",
           "category": "values",
-          "percentile": 0.8529759970344017
+          "percentile": 0.85
         },
         {
           "trait_id": "value_self_enhancement",
           "name": "Self-enhancement",
           "category": "values",
-          "percentile": 0.9424726774444263
+          "percentile": 0.80
         },
         {
           "trait_id": "value_self_transcendence",
           "name": "Self-transcendence",
           "category": "values",
-          "percentile": 0.6350518411502284
+          "percentile": 0.70
         }
       ]
     },
     {
-      "districtName" : "",
+      "districtName" : "Oud-Zuid",
       "personality": [
         {
           "trait_id": "big5_openness",
           "name": "Openness",
           "category": "personality",
-          "percentile": 0.3771928514242867,
+          "percentile": 0.63
         },
         {
           "trait_id": "big5_conscientiousness",
           "name": "Conscientiousness",
           "category": "personality",
-          "percentile": 0.7574945964171107,
+          "percentile": 0.55
         },
         {
           "trait_id": "big5_extraversion",
           "name": "Extraversion",
           "category": "personality",
-          "percentile": 0.7050144929885335,
+          "percentile": 0.61
         },
         {
           "trait_id": "big5_agreeableness",
           "name": "Agreeableness",
           "category": "personality",
-          "percentile": 0.8580034481075778,
+          "percentile": 0.66
         },
         {
           "trait_id": "big5_neuroticism",
           "name": "Emotional range",
           "category": "personality",
-          "percentile": 0.6918024797191283,
+          "percentile": 0.48
         }
       ],
       "needs": [
@@ -833,31 +733,31 @@
           "trait_id": "need_closeness",
           "name": "Closeness",
           "category": "needs",
-          "percentile": 0.72264321320099
+          "percentile": 0.89
         },
         {
           "trait_id": "need_curiosity",
           "name": "Curiosity",
           "category": "needs",
-          "percentile": 0.7425116633091209
+          "percentile": 0.85
         },
         {
           "trait_id": "need_harmony",
           "name": "Harmony",
           "category": "needs",
-          "percentile": 0.8143365951087413
+          "percentile": 0.58
         },
         {
           "trait_id": "need_self_expression",
           "name": "Self-expression",
           "category": "needs",
-          "percentile": 0.7267389138586393
+          "percentile": 0.85
         },
         {
           "trait_id": "need_stability",
           "name": "Stability",
           "category": "needs",
-          "percentile": 0.9749889630209273
+          "percentile": 0.88
         }
       ],
       "values": [
@@ -865,66 +765,66 @@
           "trait_id": "value_conservation",
           "name": "Conservation",
           "category": "values",
-          "percentile": 0.9516083704167001
+          "percentile": 0.86
         },
         {
           "trait_id": "value_openness_to_change",
           "name": "Openness to change",
           "category": "values",
-          "percentile": 0.807672580636824
+          "percentile": 0.49
         },
         {
           "trait_id": "value_hedonism",
           "name": "Hedonism",
           "category": "values",
-          "percentile": 0.8529759970344017
+          "percentile": 0.81
         },
         {
           "trait_id": "value_self_enhancement",
           "name": "Self-enhancement",
           "category": "values",
-          "percentile": 0.9424726774444263
+          "percentile": 0.79
         },
         {
           "trait_id": "value_self_transcendence",
           "name": "Self-transcendence",
           "category": "values",
-          "percentile": 0.6350518411502284
+          "percentile": 0.50
         }
       ]
     },
     {
-      "districtName" : "",
+      "districtName" : "Westerpark",
       "personality": [
         {
           "trait_id": "big5_openness",
           "name": "Openness",
           "category": "personality",
-          "percentile": 0.3771928514242867,
+          "percentile": 0.82
         },
         {
           "trait_id": "big5_conscientiousness",
           "name": "Conscientiousness",
           "category": "personality",
-          "percentile": 0.7574945964171107,
+          "percentile": 0.75
         },
         {
           "trait_id": "big5_extraversion",
           "name": "Extraversion",
           "category": "personality",
-          "percentile": 0.7050144929885335,
+          "percentile": 0.85
         },
         {
           "trait_id": "big5_agreeableness",
           "name": "Agreeableness",
           "category": "personality",
-          "percentile": 0.8580034481075778,
+          "percentile": 0.68
         },
         {
           "trait_id": "big5_neuroticism",
           "name": "Emotional range",
           "category": "personality",
-          "percentile": 0.6918024797191283,
+          "percentile": 0.55
         }
       ],
       "needs": [
@@ -932,31 +832,31 @@
           "trait_id": "need_closeness",
           "name": "Closeness",
           "category": "needs",
-          "percentile": 0.72264321320099
+          "percentile": 0.43
         },
         {
           "trait_id": "need_curiosity",
           "name": "Curiosity",
           "category": "needs",
-          "percentile": 0.7425116633091209
+          "percentile": 0.90
         },
         {
           "trait_id": "need_harmony",
           "name": "Harmony",
           "category": "needs",
-          "percentile": 0.8143365951087413
+          "percentile": 0.91
         },
         {
           "trait_id": "need_self_expression",
           "name": "Self-expression",
           "category": "needs",
-          "percentile": 0.7267389138586393
+          "percentile": 0.92
         },
         {
           "trait_id": "need_stability",
           "name": "Stability",
           "category": "needs",
-          "percentile": 0.9749889630209273
+          "percentile": 0.74
         }
       ],
       "values": [
@@ -964,66 +864,66 @@
           "trait_id": "value_conservation",
           "name": "Conservation",
           "category": "values",
-          "percentile": 0.9516083704167001
+          "percentile": 0.45
         },
         {
           "trait_id": "value_openness_to_change",
           "name": "Openness to change",
           "category": "values",
-          "percentile": 0.807672580636824
+          "percentile": 0.93
         },
         {
           "trait_id": "value_hedonism",
           "name": "Hedonism",
           "category": "values",
-          "percentile": 0.8529759970344017
+          "percentile": 0.71
         },
         {
           "trait_id": "value_self_enhancement",
           "name": "Self-enhancement",
           "category": "values",
-          "percentile": 0.9424726774444263
+          "percentile": 0.85
         },
         {
           "trait_id": "value_self_transcendence",
           "name": "Self-transcendence",
           "category": "values",
-          "percentile": 0.6350518411502284
+          "percentile": 0.88
         }
       ]
     },
     {
-      "districtName" : "",
+      "districtName" : "Bos en Lommer and De Baarsjes",
       "personality": [
         {
           "trait_id": "big5_openness",
           "name": "Openness",
           "category": "personality",
-          "percentile": 0.3771928514242867,
+          "percentile": 0.65
         },
         {
           "trait_id": "big5_conscientiousness",
           "name": "Conscientiousness",
           "category": "personality",
-          "percentile": 0.7574945964171107,
+          "percentile": 0.59
         },
         {
           "trait_id": "big5_extraversion",
           "name": "Extraversion",
           "category": "personality",
-          "percentile": 0.7050144929885335,
+          "percentile": 0.72
         },
         {
           "trait_id": "big5_agreeableness",
           "name": "Agreeableness",
           "category": "personality",
-          "percentile": 0.8580034481075778,
+          "percentile": 0.69
         },
         {
           "trait_id": "big5_neuroticism",
           "name": "Emotional range",
           "category": "personality",
-          "percentile": 0.6918024797191283,
+          "percentile": 0.66
         }
       ],
       "needs": [
@@ -1031,31 +931,31 @@
           "trait_id": "need_closeness",
           "name": "Closeness",
           "category": "needs",
-          "percentile": 0.72264321320099
+          "percentile": 0.50
         },
         {
           "trait_id": "need_curiosity",
           "name": "Curiosity",
           "category": "needs",
-          "percentile": 0.7425116633091209
+          "percentile": 0.58
         },
         {
           "trait_id": "need_harmony",
           "name": "Harmony",
           "category": "needs",
-          "percentile": 0.8143365951087413
+          "percentile": 0.60
         },
         {
           "trait_id": "need_self_expression",
           "name": "Self-expression",
           "category": "needs",
-          "percentile": 0.7267389138586393
+          "percentile": 0.63
         },
         {
           "trait_id": "need_stability",
           "name": "Stability",
           "category": "needs",
-          "percentile": 0.9749889630209273
+          "percentile": 0.70
         }
       ],
       "values": [
@@ -1063,66 +963,66 @@
           "trait_id": "value_conservation",
           "name": "Conservation",
           "category": "values",
-          "percentile": 0.9516083704167001
+          "percentile": 0.58
         },
         {
           "trait_id": "value_openness_to_change",
           "name": "Openness to change",
           "category": "values",
-          "percentile": 0.807672580636824
+          "percentile": 0.61
         },
         {
           "trait_id": "value_hedonism",
           "name": "Hedonism",
           "category": "values",
-          "percentile": 0.8529759970344017
+          "percentile": 0.60
         },
         {
           "trait_id": "value_self_enhancement",
           "name": "Self-enhancement",
           "category": "values",
-          "percentile": 0.9424726774444263
+          "percentile": 0.67
         },
         {
           "trait_id": "value_self_transcendence",
           "name": "Self-transcendence",
           "category": "values",
-          "percentile": 0.6350518411502284
+          "percentile": 0.68
         }
       ]
     },
     {
-      "districtName" : "",
+      "districtName" : "Zuidoost",
       "personality": [
         {
           "trait_id": "big5_openness",
           "name": "Openness",
           "category": "personality",
-          "percentile": 0.3771928514242867,
+          "percentile": 0.54
         },
         {
           "trait_id": "big5_conscientiousness",
           "name": "Conscientiousness",
           "category": "personality",
-          "percentile": 0.7574945964171107,
+          "percentile": 0.72
         },
         {
           "trait_id": "big5_extraversion",
           "name": "Extraversion",
           "category": "personality",
-          "percentile": 0.7050144929885335,
+          "percentile": 0.58
         },
         {
           "trait_id": "big5_agreeableness",
           "name": "Agreeableness",
           "category": "personality",
-          "percentile": 0.8580034481075778,
+          "percentile": 0.35
         },
         {
           "trait_id": "big5_neuroticism",
           "name": "Emotional range",
           "category": "personality",
-          "percentile": 0.6918024797191283,
+          "percentile": 0.78
         }
       ],
       "needs": [
@@ -1130,31 +1030,31 @@
           "trait_id": "need_closeness",
           "name": "Closeness",
           "category": "needs",
-          "percentile": 0.72264321320099
+          "percentile": 0.64
         },
         {
           "trait_id": "need_curiosity",
           "name": "Curiosity",
           "category": "needs",
-          "percentile": 0.7425116633091209
+          "percentile": 0.70
         },
         {
           "trait_id": "need_harmony",
           "name": "Harmony",
           "category": "needs",
-          "percentile": 0.8143365951087413
+          "percentile": 0.44
         },
         {
           "trait_id": "need_self_expression",
           "name": "Self-expression",
           "category": "needs",
-          "percentile": 0.7267389138586393
+          "percentile": 0.85
         },
         {
           "trait_id": "need_stability",
           "name": "Stability",
           "category": "needs",
-          "percentile": 0.9749889630209273
+          "percentile": 0.48
         }
       ],
       "values": [
@@ -1162,42 +1062,33 @@
           "trait_id": "value_conservation",
           "name": "Conservation",
           "category": "values",
-          "percentile": 0.9516083704167001
+          "percentile": 0.95
         },
         {
           "trait_id": "value_openness_to_change",
           "name": "Openness to change",
           "category": "values",
-          "percentile": 0.807672580636824
+          "percentile": 0.87
         },
         {
           "trait_id": "value_hedonism",
           "name": "Hedonism",
           "category": "values",
-          "percentile": 0.8529759970344017
+          "percentile": 0.61
         },
         {
           "trait_id": "value_self_enhancement",
           "name": "Self-enhancement",
           "category": "values",
-          "percentile": 0.9424726774444263
+          "percentile": 0.90
         },
         {
           "trait_id": "value_self_transcendence",
           "name": "Self-transcendence",
           "category": "values",
-          "percentile": 0.6350518411502284
+          "percentile": 0.63
         }
       ]
-    },
-
-
-
-
-
-
-
-
-
+    }
   ]
 }
