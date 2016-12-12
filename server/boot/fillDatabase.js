@@ -5,16 +5,16 @@ var request = require('request');
 var GeoPoint = require('loopback').GeoPoint;
 
 module.exports = function(app) {
-  fillSpecificTable(app, 'Attraction', 'Attracties.json');
-  fillSpecificTable(app, 'Event', 'Evenementen.json');
-  fillSpecificTable(app, 'Activity', 'Activiteiten.json');
-  fillSpecificTable(app, 'FoodAndDrinks', 'EtenDrinken.json');
-  fillSpecificTable(app, 'MuseaAndGalleries', 'MuseaGalleries.json');
-  fillSpecificTable(app, 'Nightlife', 'UitInAmsterdam.json');
-  fillSpecificTable(app, 'Theater', 'Theater.json');
-  fillSpecificTable(app, 'Festival', 'Festivals.json');
-  fillSpecificTable(app, 'Exhibition', 'Tentoonstellingen.json');
-  fillSpecificTable(app, 'Shop', 'Shoppen.json');
+  // fillSpecificTable(app, 'Attraction', 'Attracties.json');
+  // fillSpecificTable(app, 'Event', 'Evenementen.json');
+  // fillSpecificTable(app, 'Activity', 'Activiteiten.json');
+  // fillSpecificTable(app, 'FoodAndDrinks', 'EtenDrinken.json');
+  // fillSpecificTable(app, 'MuseaAndGalleries', 'MuseaGalleries.json');
+  // fillSpecificTable(app, 'Nightlife', 'UitInAmsterdam.json');
+  // fillSpecificTable(app, 'Theater', 'Theater.json');
+  // fillSpecificTable(app, 'Festival', 'Festivals.json');
+  // fillSpecificTable(app, 'Exhibition', 'Tentoonstellingen.json');
+  // fillSpecificTable(app, 'Shop', 'Shoppen.json');
 };
 
 

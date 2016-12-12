@@ -21,7 +21,7 @@ module.exports = function(app, cb) {
   //             var authHeader = response.authorizationHeader
   //   }
   // }}
-  console.log("creating audio files...");
 
-  process.nextTick(cb); // Remove if you pass `cb` to an async function yourself
+
+  process.nextTick(() => console.log("creating audio files...")); // Remove if you pass `cb` to an async function yourself
 };
